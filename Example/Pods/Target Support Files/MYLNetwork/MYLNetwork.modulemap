@@ -1,0 +1,6 @@
+framework module MYLNetwork {
+  umbrella header "MYLNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HandyJSON (5.0.2)
+  - MBProgressHUD (1.2.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - MYLNetwork (0.0.1):
+    - Alamofire (~> 4.0)
+    - HandyJSON (~> 5.0.2)
+    - MBProgressHUD (~> 1.2.0)
+    - Moya (~> 13.0)
+  - Result (4.1.0)
+
+DEPENDENCIES:
+  - MYLNetwork (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - MBProgressHUD
+    - Moya
+    - Result
+
+EXTERNAL SOURCES:
+  MYLNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  MYLNetwork: e00756c977eb962acf930e6943e6d48980509eeb
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+
+PODFILE CHECKSUM: dd993c653df33ddfadf1ef979753440d9a8bddfe
+
+COCOAPODS: 1.10.0
