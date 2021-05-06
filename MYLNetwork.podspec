@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYLNetwork'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'MYLNetwork: 网络请求：Moya、HandyJson、Alamofire'
 
 # This description is used to generate tags and improve search results.
@@ -41,5 +41,5 @@ TODO: Add long description of the pod here.
   s.dependency 'Moya', '~> 13.0'
   s.dependency 'Alamofire', '~> 4.0'
   s.dependency 'HandyJSON', '~> 5.0.2'
-  s.dependency 'MBProgressHUD', '~> 1.2.0'
+  s.dependency 'MBProgressHUD', '~> 1.1.0'
 end
