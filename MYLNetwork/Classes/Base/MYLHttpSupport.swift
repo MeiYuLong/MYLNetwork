@@ -15,7 +15,11 @@ open class MBaseModel: NSObject,HandyJSON {
     
     public var baseMessage: String?
     
-    public func didFinishMapping() {}
+    open func didFinishMapping() {}
+    
+    open func mapping(mapper: HelpingMapper) {}
+    
+    open func willStartMapping() {}
 }
 
 /**

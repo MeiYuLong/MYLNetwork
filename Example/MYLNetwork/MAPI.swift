@@ -36,7 +36,7 @@ extension MAPI: TargetType {
     var sampleData: Data {
         switch self {
         case .login:
-            return "{\"code\": \"1\", \"message\": \"success\"}".data(using: .utf8)!
+            return "{\"code\": \"1\", \"message\": \"success\", \"data\": {\"code\": \"1\", \"message\": \"success\"}}".data(using: .utf8)!
         }
     }
     
